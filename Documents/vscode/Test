@@ -1,0 +1,51 @@
+a=10
+b=20
+if a==b:
+     print ("a==b is True")
+else:
+    print ("a==b is False")
+
+a=10
+b=20
+if a<b or a<b:
+       print("this is if")
+
+a=200
+b=1000
+if a<b and a>b:
+ print("This is if") 
+else:
+ print("else")
+
+ a=50
+ b=10
+if a>b and b>a:
+  print("this is if")
+else:
+    print("else")
+
+kiran= [1,22,"bc"]
+print(kiran)
+
+kiran=[1,1,2.2,[3,4,5,6,8],7]
+print(kiran[3][0])
+
+kiara=[2,3,"advani",99]
+kiara.append(61)
+print(type(kiara))
+
+kiara=[1,2,"helen","T99"]
+kiara.insert(1,"wowww")
+print(kiara)
+
+kiara=[22,33,"welcome home"]
+kiara.extend([999,9999])
+print(kiara)
+
+kiara=[1,2,3,3.5,"oracle"]
+print(kiara.count(3))
+
+kreem=[44,34,22,"krishna",True]
+for s in kreem:
+  print(s) #this is a loop#
+

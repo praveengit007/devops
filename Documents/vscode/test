@@ -1,6 +1,15 @@
+'''
 a=1
 a+=3
 print (a)
-omayooo
 
-
+a=10
+b=20
+if a<b or a>b:
+    print("This is if")
+else:
+    print("else")
+'''
+###Looping statements
+for i in 'kiran':
+    print(i)   
